@@ -34,6 +34,7 @@
 
 // Remove pointless warning messages
 #ifdef _MSC_VER
+#pragma warning (disable : 4091 4302 4838)	//VS2015 2018.05.30.zoand
 #pragma warning (disable : 4511) // copy operator could not be generated
 #pragma warning (disable : 4512) // assignment operator could not be generated
 #pragma warning (disable : 4702) // unreachable code (bugs in Microsoft's STL)
