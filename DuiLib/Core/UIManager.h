@@ -255,6 +255,8 @@ public:
     static void SetResourcePath(LPCTSTR pStrPath);
 	static void SetResourceZip(LPVOID pVoid, unsigned int len);
     static void SetResourceZip(LPCTSTR pstrZip, bool bCachedResourceZip = false);
+	//add ZIPRES id method 2018.05.30.zoand
+	static void SetResourceZip(UINT nResID);
     static bool GetHSL(short* H, short* S, short* L);
     static void SetHSL(bool bUseHSL, short H, short S, short L); // H:0~360, S:0~200, L:0~200 
     static void ReloadSkin();

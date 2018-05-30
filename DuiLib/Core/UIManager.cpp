@@ -328,6 +328,11 @@ void CPaintManagerUI::SetResourceZip(LPCTSTR pStrPath, bool bCachedResourceZip)
     }
 }
 
+void CPaintManagerUI::SetResourceZip(UINT nResID)
+{
+
+}
+
 bool CPaintManagerUI::GetHSL(short* H, short* S, short* L)
 {
     *H = m_H;

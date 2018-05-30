@@ -264,7 +264,7 @@
       <OutputFile>.\Debug/DuiLib.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>echo y|xcopy *.h $(SolutionDir)include\$(ProjectName)\ /F /S /D</Command>
+      <Command>echo Y|xcopy *.h $(SolutionDir)include\$(ProjectName)\ /F /S /D</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='uDebug|Win32'">
@@ -348,7 +348,7 @@
       <OutputFile>.\Release/DuiLib.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>echo y|xcopy *.h $(SolutionDir)include\$(ProjectName)\ /F /S /D</Command>
+      <Command>echo Y|xcopy *.h $(SolutionDir)include\$(ProjectName)\ /F /S /D</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='uRelease|Win32'">
